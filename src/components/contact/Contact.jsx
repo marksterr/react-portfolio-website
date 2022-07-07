@@ -4,7 +4,7 @@ import './contact.css'
 // component for contact page
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <section id='contact'>Contact</section>
   )
 }
 

@@ -4,7 +4,7 @@ import './about.css'
 // component for About page
 const About = () => {
   return (
-    <div>About</div>
+    <section id='about'>About</section>
   )
 }
 

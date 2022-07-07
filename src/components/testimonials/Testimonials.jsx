@@ -4,7 +4,7 @@ import './testimonials.css'
 // component for testimonials page
 const Testimonials = () => {
   return (
-    <div>Testimonials</div>
+    <section id='testimonials'>Testimonials</section>
   )
 }
 
