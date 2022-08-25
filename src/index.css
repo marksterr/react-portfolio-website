@@ -33,9 +33,9 @@ html {
 }
 
 /* remove scrollbar */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar { 
   display: none;
-}
+} */
 
 /*  body elements */
 body {

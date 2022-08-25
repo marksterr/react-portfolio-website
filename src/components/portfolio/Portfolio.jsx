@@ -1,8 +1,8 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
+import IMG1 from '../../assets/portfolio2.jpg'
+import IMG2 from '../../assets/portfolio1.jpg'
+import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
@@ -11,45 +11,24 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+    title: 'Personal Portfolio Website Using React',
+    github: 'https://github.com/marksterr/react-portfolio-website',
+    demo: 'https://www.markdawes.io'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+    title: 'Coinview - responsive app for viewing crypto price history',
+    github: 'https://github.com/marksterr/cryptodata',
+    demo: 'https://coinview-1.herokuapp.com/'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+    title: 'Disaster Tracker - tracks storms, volcanos, and wildfires using Google Maps API',
+    github: 'https://github.com/marksterr/disastertracker',
+    demo: 'https://disaster-tracker-2.herokuapp.com/'
   },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
-  }
 ]
 
 // component for portfolio display

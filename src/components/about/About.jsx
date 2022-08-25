@@ -27,21 +27,21 @@ const About = () => {
               <small>3+ Years Working</small>
             </article>
 
-            <article className="about__card">
+            {/* <article className="about__card"> 
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
               <small>200+ Worldwide</small>
-            </article>
+            </article> */}
 
             <article className="about__card">
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>3+ Completed</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut doloremque aspernatur autem debitis enim eos expedita officia quod iusto! Nisi voluptas corporis quis velit! Ducimus id ipsam earum architecto delectus.
+            I am a logistics professional who has always had the goal of becoming a software engineer. My passion for programming started when I read 'Head First Java' at the age of fifteen and I have been regularly programming as a hobbyist ever since. I am ready to take the next step to becoming a professional programmer.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

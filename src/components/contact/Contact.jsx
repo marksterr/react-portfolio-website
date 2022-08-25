@@ -31,12 +31,12 @@ const Contact = () => {
             <h5>mrkdawes8@gmail.com</h5>
             <a href="mailto:mrkdawes8@gmail.com" target='_blank'>Send a message</a>
           </article>
-          <article className="contact__option">
+          {/* <article className="contact__option"> 
             <RiMessengerLine className='contact__option-icon' />
             <h4>Messenger</h4>
             <h5>Mark Dawes</h5>
             <a href="https://m.me/mark.dawes.7" target='_blank'>Send a message</a>
-          </article>
+          </article> */}
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon' />
             <h4>WhatsApp</h4>
