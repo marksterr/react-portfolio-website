@@ -3,6 +3,7 @@ import './footer.css'
 import {FaFacebookF} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import {IoLogoTwitter} from 'react-icons/io'
+import {BsGithub} from 'react-icons/bs'
 
 // component for portfolio footer
 const Footer = () => {
@@ -21,9 +22,10 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com"><FaFacebookF/></a>
+        <a href="https://github.com/marksterr" target="_blank"><BsGithub/></a>
+        {/* <a href="https://facebook.com"><FaFacebookF/></a> 
         <a href="https://instagram.com"><FiInstagram/></a>
-        <a href="https://twitter.com"><IoLogoTwitter/></a>
+        <a href="https://twitter.com"><IoLogoTwitter/></a> */}
       </div>
 
       <div className="footer__copyright">
